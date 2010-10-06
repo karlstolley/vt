@@ -70,9 +70,30 @@ html, body, .footer{
 body {
 	font-family: sans-serif;
 }
+h2 { 
+  border-bottom: 1px solid #666; 
+  font-size: 1.5em;
+  line-height: 1;
+  padding: 25px;
+}
+blockquote {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3em;
+  margin: 50px 10%;
+}
+cite {
+  display: block;
+  color: #999;
+  font-size: 75%;
+  margin-top: 1em;
+  text-align: right;
+}
+ins { color: blue; }
+del { color: red; }
 .slide, .footer {
 }
 .slide {
+  background-color: white;
 }
 .slide > * {
 }
@@ -80,7 +101,8 @@ body {
 	
 }
 .footer {
-
+  border-top: 1px solid #666;
+  padding: 15px 25px;
 }
 a {
 
