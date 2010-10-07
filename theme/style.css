@@ -64,8 +64,21 @@ html, body, .footer{
 	overflow: scroll;
 }
 
-
 /*Theme Styles*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.slide.first h1 {
+  font-size: 2em;
+  padding: 50px 300px 50px 50px;
+}
+
+.slide.first p {
+  padding-left: 50px;
+}
 
 body {
 	font-family: sans-serif;
@@ -75,6 +88,13 @@ h2 {
   font-size: 1.5em;
   line-height: 1;
   padding: 25px;
+}
+h2.lessig {
+  border-bottom: 0px;
+  font-size: 2em;
+  padding: 0px;
+  text-align: center;
+  margin: 300px 10% 0px 10%;
 }
 blockquote {
   font-family: Georgia, "Times New Roman", serif;
