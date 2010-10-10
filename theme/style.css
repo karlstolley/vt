@@ -108,6 +108,11 @@ cite {
   margin-top: 1em;
   text-align: right;
 }
+ol, ul { margin: 50px 10%; }
+ol li {
+  list-style-type: decimal;
+  margin-bottom: 1em;
+}
 ins { color: blue; }
 del { color: red; }
 .slide, .footer {
