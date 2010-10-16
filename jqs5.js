@@ -88,7 +88,7 @@ function go(n){
 	cur = n;
 	var slides = $('.slide');
 	slides.eq(prev).css('z-index', 0);
-	slides.eq(cur).css('z-index', 100).fadeIn('medium', function(){ slides.eq(prev).hide()});
+	slides.eq(cur).css('z-index', 100).fadeIn(100, function(){ slides.eq(prev).hide()});
 	if(n == 0 || prev == 0){
 		if(n == 0){
 			$('.footer').animate({top: '100%'});
