@@ -89,6 +89,7 @@ h2 {
   line-height: 1;
   padding: 25px;
 }
+h2.noshow { display: none; }
 h2.lessig {
   border-bottom: 0px;
   font-size: 2em;
@@ -97,6 +98,15 @@ h2.lessig {
   margin: 220px 10% 0px 10%;
   font-weight: normal;
   line-height: 1.3;
+}
+div.image {
+text-align: center;
+background-color: white;
+padding-top: 20px;
+padding-bottom: 50px;
+}
+img {
+  display: inline;
 }
 blockquote {
   font-family: FreeSerif, "Deja Vu Serif", Georgia, "Times New Roman", serif;
